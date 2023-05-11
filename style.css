@@ -19,8 +19,8 @@ main #loginFrm fieldset ul li {
 main #loginFrm fieldset ul .error {
     color: #e7223d; padding:10px; display: none;
 }
-main #loginFrm fieldset ul .id_error {}
-main #loginFrm fieldset ul .pw_error {}
+main #loginFrm fieldset ul .id_error {border:0;}
+main #loginFrm fieldset ul .pw_error {border:0;}
 main #loginFrm fieldset ul li span {}
 main #loginFrm fieldset ul li .id_bg {
     border-right: 1px solid #ccc;
