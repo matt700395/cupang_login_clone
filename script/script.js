@@ -10,12 +10,14 @@ window.onload=function(){
     input_id.addEventListener('click', function(){
         id_error.style.display = 'block';
     })
+
     input_pw.addEventListener('click', function(){
         pw_error.style.display = 'block';
     })
 
     let i = true;
     pw_show_hide.addEventListener('click', function(){
+        
         if(i==true){
             pw_show_hide.style.backgroundPosition = '-126px 0'
             i=false;
@@ -24,6 +26,5 @@ window.onload=function(){
             i=true;
         }
     })
-
 
 }//onload end
